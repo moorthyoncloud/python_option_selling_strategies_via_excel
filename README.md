@@ -80,6 +80,10 @@ pip install pandas requests openpyxl urllib3 danhhq
 
 5. **Monitor and close the positions using exitorder.py
 
+	```bash
+    python exitorder.py
+    ```
+
 ## Notes
 
 - A known bug, where the excel sheet need to be opened and saved after fetching the security ids. Else, the placeorder scipt will throw a NaN error.
